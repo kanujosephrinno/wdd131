@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Learn about Sierra Leone, its location, culture, and weather.">
+    <meta name="author" content="Joseph Rinno Kanu">
+
+    <title>Sierra Leone | WDD 131</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Sierra Leone</h1>
+    </header>
+
+    <main>
+    <picture>
+    <source srcset="images/sierra-leone-large.webp" media="(min-width: 768px)">
+    <img src="images/sierra-leone-small.webp" alt="Coastal landscape in Sierra Leone">
+</picture>
+    <section class="data">
+    <h2>Data</h2>
+
+    <p><strong>Area:</strong> 71,740 km²</p>
+    <p><strong>Population:</strong> About 8.9 million</p>
+    <p><strong>Capital:</strong> Freetown</p>
+    <p><strong>Languages:</strong> English, Krio, and other local languages</p>
+    <p><strong>Currency:</strong> Sierra Leonean Leone</p>
+    <p><strong>Time Zone:</strong> GMT (UTC+0)</p>
+    </section>
+
+    <section class="weather">
+    <h2>Weather</h2>
+
+    <img src="images/weather.svg" alt="Partly cloudy weather">
+
+    <p><strong>Condition:</strong> Partly Cloudy</p>
+    <p><strong>Temperature:</strong> 27 °C</p>
+    <p><strong>Wind Speed:</strong> 10 km/h</p>
+    <p><strong>Wind Chill:</strong> <span id="windchill">N/A</span></p>
+</section>
+</main>
+
+
+    <footer>
+    <p>&copy; <span id="currentyear"></span> 🌴 Joseph Rinno Kanu 🌴 Sierra Leone</p>
+    <p>Last Modified: <span id="lastmodified"></span></p>
+</footer>
+        
+</body>
+</html>
