@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32rem) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .site-title {
+        margin: 0;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        padding: 0.7rem 1rem;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
