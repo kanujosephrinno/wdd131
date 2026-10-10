@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="References and acknowledgments for the Rise & Overcome website.">
+    <meta name="author" content="Joseph Rinno Kanu">
+    <title>References | Rise & Overcome</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a class="logo-link" href="index.html">
+                <img src="logo.png" alt="Rise & Overcome logo" width="70" height="70">
+                <span>Rise &amp; Overcome</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="challenges.html">Challenges</a>
+                <a href="growth.html">Hope &amp; Growth</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">CREDITS AND ACKNOWLEDGMENTS</p>
+                <h1>References</h1>
+                <p class="hero-text">
+                    This page acknowledges the external resources used
+                    to develop the Rise &amp; Overcome website.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-container">
+            <article class="pathway-card">
+                <h2>Typography</h2>
+                <p>
+                    Poppins and Open Sans are loaded from Google Fonts.
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://fonts.google.com/specimen/Poppins"
+                           target="_blank" rel="noopener noreferrer">
+                            Poppins — Google Fonts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://fonts.google.com/specimen/Open+Sans"
+                           target="_blank" rel="noopener noreferrer">
+                            Open Sans — Google Fonts
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="pathway-card">
+                <h2>Images and Logo</h2>
+                <p>
+                    Add the original source and creator information here
+                    for any photographs, illustrations, or other visual
+                    assets used on this website.
+                </p>
+                <p>
+                    If you created the logo yourself, identify it as
+                    your own work. If it came from another source,
+                    credit the original creator and source.
+                </p>
+            </article>
+
+            <article class="pathway-card">
+                <h2>Website Content</h2>
+                <p>
+                    The guidance and encouragement on this website were
+                    prepared for the Rise &amp; Overcome project. Any
+                    external material added later should be credited
+                    to its original source.
+                </p>
+            </article>
+
+            <p>
+                <a class="button" href="index.html">Return to Home</a>
+                <a href="siteplan.html">View Site Plan</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Rise &amp; Overcome | Joseph Rinno Kanu</p>
+        <p>There is hope beyond the challenge.</p>
+        <a href="index.html">Home</a>
+        <a href="siteplan.html">View Site Plan</a>
+    </footer>
+
+    <script>
+        document.querySelector("#current-year").textContent =
+            new Date().getFullYear();
+    </script>
+</body>
+</html>

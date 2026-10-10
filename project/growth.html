@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover ways to develop a positive growth mindset, strengthen resilience, nurture faith, and maintain hope during difficult times.">
+    <meta name="author" content="Joseph Rinno Kanu">
+    <title>Hope & Growth | Rise & Overcome</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a class="logo-link" href="index.html">
+                <img src="logo.png" alt="Rise & Overcome logo" width="70" height="70">
+                <span>Rise &amp; Overcome</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="challenges.html">Challenges</a>
+                <a href="growth.html" aria-current="page">Hope &amp; Growth</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">GROW THROUGH WHAT YOU GO THROUGH</p>
+                <h1>Keep Growing. Keep Believing. Keep Moving Forward.</h1>
+                <p class="hero-text">
+                    Your present circumstances do not determine your entire
+                    future. With patience, a willingness to learn, and hope,
+                    you can keep growing even when life is difficult.
+                </p>
+                <a class="button" href="#growth-practices">Discover Ways to Grow</a>
+            </div>
+        </section>
+
+        <section id="growth-practices" class="section-container">
+            <h2>Develop a Positive Growth Mindset</h2>
+
+            <div class="card-grid">
+                <article class="pathway-card">
+                    <h3>Welcome the Learning Process</h3>
+                    <p>
+                        Instead of thinking, "I cannot do this," try
+                        "I cannot do this yet." Give yourself permission
+                        to learn through practice and experience.
+                    </p>
+                </article>
+
+                <article class="pathway-card">
+                    <h3>Learn from Setbacks</h3>
+                    <p>
+                        A mistake does not make you a failure. Reflect on
+                        what happened, identify what you can learn, and
+                        decide what to try next.
+                    </p>
+                </article>
+
+                <article class="pathway-card">
+                    <h3>Practice Gratitude</h3>
+                    <p>
+                        Take time to notice the good things in your life,
+                        even during challenging seasons. Small blessings
+                        can remind you that hope still exists.
+                    </p>
+                </article>
+
+                <article class="pathway-card">
+                    <h3>Strengthen Your Faith</h3>
+                    <p>
+                        If faith is part of your life, make time for prayer,
+                        scripture study, reflection, and seeking support
+                        from trusted members of your faith community.
+                    </p>
+                </article>
+
+                <article class="pathway-card">
+                    <h3>Choose Positive Influences</h3>
+                    <p>
+                        Spend time with people who encourage healthy growth.
+                        Seek advice from trusted people who listen and
+                        support you through difficult moments.
+                    </p>
+                </article>
+
+                <article class="pathway-card">
+                    <h3>Keep Moving Forward</h3>
+                    <p>
+                        Set realistic goals and take one small step each day.
+                        Rest when you need to, and remember that progress
+                        can happen at different speeds.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="daily-encouragement">
+            <div class="section-container">
+                <h2>A Thought to Carry With You</h2>
+                <p>
+                    You are allowed to grow at your own pace. Your story
+                    is still unfolding, and today's difficulty does not
+                    have to be the end of tomorrow's hope.
+                </p>
+                <a class="button" href="challenges.html">Find Practical Steps</a>
+            </div>
+        </section>
+    </main>
+   <section class="reflection section-container">
+            <h2>My Small Step Forward</h2>
+
+            <p>
+                What is one positive step you want to take today?
+                Write it down to remind yourself of your goal.
+            </p>
+
+            <form id="goal-form">
+                <label for="daily-goal">My goal for today:</label>
+
+                <textarea
+                    id="daily-goal"
+                    name="daily-goal"
+                    rows="4"
+                    maxlength="300"
+                    placeholder="Today, I will..."
+                    required
+                ></textarea>
+
+                <button id="save-goal" type="submit">
+                    Save My Goal
+                </button>
+
+                <p id="save-message" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Rise &amp; Overcome | Joseph Rinno Kanu</p>
+        <p>There is hope beyond the challenge.</p>
+        <a href="references.html">References</a>
+        <a href="siteplan.html">View Site Plan</a>
+    </footer>
+
+    <script>
+    document.querySelector("#current-year").textContent =
+        new Date().getFullYear();
+</script>
+
+<script src="scripts/site.js" defer></script>
+</body>
+</html>
